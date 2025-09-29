@@ -1,5 +1,18 @@
+#-----------------------------------
+#   ENVIRONMENT & SENSITIVE FILES
+#------------------------------------
+
+#Environment variables (Crucial for securing PostgreSQL credentials)
+.env
+.flaskenv
+.venv
+venv
+env
+/backend/.venv
+/backend/env
+
 #---------------------------
-#  Python / Django Ignores
+#  PYTHON / DJANGO IGNORES
 # --------------------------
 
 # Byte-compiled / optimized / DLL files
