@@ -34,6 +34,13 @@ Ensure you have the following installed:
 pip install -r requirements.txt
 ```
 4. Configure environment variables
+- Create a `.env` file in the `backend` directory.
+- Add your database credentials and Gemini API key:
+```
+DATABASE_URL=postgres://[user]:[password]@[host]:[port]/[database_name]
+GEMINI_API_KEY=[Your_Gemini_API_Key]
+SECRET_KEY=...
+```
 5. Run database migrations
 ```
 python manage.py makemigrations
