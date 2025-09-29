@@ -1,0 +1,33 @@
+#---------------------------
+#  Python / Django Ignores
+# --------------------------
+
+# Byte-compiled / optimized / DLL files
+pycache/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / Packaging
+build/
+develop-eggs/
+dist/
+eggs/
+.eggs/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Database
+*.sqlite3
+/backend/db.sqlite3
+
+# Testing and Coverage
+.coverage
+.tox/
+htmlcov/
+
+# Django specific logs
+*.log
