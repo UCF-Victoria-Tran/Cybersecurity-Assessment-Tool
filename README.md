@@ -19,7 +19,7 @@ Backend
 - PostgreSQL
 - Gemini API
 
-# Installation and Setip
+# Installation and Setup
 ## Prerequisites
 Ensure you have the following installed:
 - Anaconda

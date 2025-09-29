@@ -1,8 +1,8 @@
-#-----------------------------------
+#------------------------------------
 #   ENVIRONMENT & SENSITIVE FILES
 #------------------------------------
 
-#Environment variables (Crucial for securing PostgreSQL credentials)
+# Environment variables (Crucial for securing PostgreSQL credentials)
 .env
 .flaskenv
 .venv
