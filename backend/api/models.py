@@ -1,6 +1,7 @@
 """
 This script MUST be run first before running any other code.
-It will generate the necessary tables in the database.
+It only needs to be run once to configure the tables in the cloud database.
+For local databases, it should be run regularly whenever the migration has been changed.
 
 Run these commands in your terminal:
 1. python manage.py makemigrations
