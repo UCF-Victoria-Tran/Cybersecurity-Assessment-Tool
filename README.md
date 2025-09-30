@@ -14,7 +14,7 @@ Our project is a full-stack web application intended to help schools, small busi
 - CSS
 - Bootstrap
 - JQuery
-- TypeScript
+- JavaScript
 
 **Backend**
 - Django
@@ -33,7 +33,6 @@ Our project is a full-stack web application intended to help schools, small busi
 ## Prerequisites
 Ensure you have the following installed:
 - Node.js and npm
-- Angular CLI
 - Anaconda
 - PostgreSQL
 - [A Gemini API Key](https://aistudio.google.com/welcome?utm_source=PMAX&utm_source=PMAX&utm_medium=display&utm_medium=display&utm_campaign=FY25-global-DR-pmax-1710442&utm_campaign=FY25-global-DR-pmax-1710442&utm_content=pmax&utm_content=pmax&gclsrc=aw.ds&gad_source=1&gad_campaignid=21521909442&gbraid=0AAAAACn9t67C4jSAFbC4_60CwHqLfNKPn&gclid=Cj0KCQjw3OjGBhDYARIsADd-uX5Z7iVfAikJYLjQGazBsLPRN2yfgOMdxVg2eMHoWkWtaHs0OxvpJB0aAop3EALw_wcB)
