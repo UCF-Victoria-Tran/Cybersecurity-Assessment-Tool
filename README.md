@@ -6,7 +6,7 @@ Our project is a full-stack web application intended to help schools, small busi
 - **Report Generation**: Generates detailed security report based on user input via a questionnare and network scan. 
 - **Gemini API Integration**: Uses Gemini API to provide evaluations and recommendations.
 - **Data Persistence**: Stores reports and user data securely in a PostgreSQL database.
-- **Intuitive UI/UX**: A response and user-friendly interface built with Angular.
+- **Intuitive UI/UX**: A response and user-friendly interface built with Jquery/JavaScript.
 
 ## Technologies Used
 **Frontend**
