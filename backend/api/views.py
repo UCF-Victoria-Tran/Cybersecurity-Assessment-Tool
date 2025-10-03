@@ -1,3 +1,2 @@
 from django.shortcuts import render
-
-# Create your views here.
+from .services import generate_content_from_gemini
