@@ -15,6 +15,21 @@ except KeyError:
     # Using placeholder will allow initalization, but calls will fail until user provides a real key.
     genai.configure(api_key="placeholder_key")
 
+def engineering_prompt_for_gemini(question: str, example_data, example_solution: str):
+    """
+    Creates a prompt to feed into an AI based on a question, data, and solution.
+    
+    Args:
+        question: What you want the AI to do with the information provided.
+        example_data: The data.
+        example_solution: The solution you want the AI to conclude from the data provided.
+    
+    Returns:
+        Prompt containing the question, example data, and example solution to feed
+        to the AI.
+    """
+    return
+
 def generate_content_from_gemini(
         prompt: str, 
         context_filepath: str = "",
@@ -65,18 +80,3 @@ def generate_content_from_gemini(
     except Exception as e:
         print(f"--- API Call Failed ---")
         return f"An error occurred during generation: {e}"
-
-def engineering_prompt_for_gemini(question: str, example_data, example_solution: str):
-    """
-    Creates a prompt to feed into an AI based on a question, data, and solution.
-    
-    Args:
-        question: What you want the AI to do with the information provided.
-        example_data: The data.
-        example_solution: The solution you want the AI to conclude from the data provided.
-    
-    Returns:
-        Prompt containing the question, example data, and example solution to feed
-        to the AI.
-    """
-    return
